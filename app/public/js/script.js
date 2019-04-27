@@ -1,8 +1,4 @@
-alert('hello world');
-console.log('hello world');
-// Capture the form inputs
 $("#submit").on("click", function () {
-
 
   var submission = {
     name: $("#name").val(),
@@ -21,9 +17,8 @@ $("#submit").on("click", function () {
     ]
   };
 
-  // AJAX post the data to the friends API.
-  app.get('/api/friends', function (req, res) {
-    res.send(submission);
-  });
+  // app.get('/api/friends', function (req, res) {
+  //   res.send(submission);
+  // });
 
 });

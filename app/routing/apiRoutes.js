@@ -1,7 +1,4 @@
 var friends = require('../data/friends');
-var counter = 0;
-
-
 
 module.exports = function (app) {
 
