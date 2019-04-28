@@ -17,8 +17,9 @@ $("#submit").on("click", function () {
     ]
   };
 
-  // app.get('/api/friends', function (req, res) {
-  //   res.send(submission);
-  // });
+  // needs logic to send values to array from survey page
+  // needs logic to return closest match in friends data
+  // needs code to send data to friends data
+  // needs code to innitiate modal
 
 });
